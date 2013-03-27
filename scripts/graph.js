@@ -157,7 +157,3 @@ orders.add({quantity: 1});
 orders.last().set('quantity', 2);
 orders.last().set('quantity', 1);
 orders.last().set('quantity', 3);
-
-var sum = function(arr) {
-  return _.reduce(arr, function(memo, num){ return memo + num; }, 0);
-}
